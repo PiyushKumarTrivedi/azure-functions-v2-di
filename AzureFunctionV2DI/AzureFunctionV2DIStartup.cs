@@ -1,4 +1,5 @@
 using AzureFunctionV2DI;
+using AzureFunctionV2DI.Extensions;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Hosting;
 

@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Azure.WebJobs.Description;
 
-namespace AzureFunctionV2DI
+namespace AzureFunctionV2DI.Extensions
 {
     /// <summary>
     /// Function parameter that will be resolved using <see cref="InjectConfiguration"/>

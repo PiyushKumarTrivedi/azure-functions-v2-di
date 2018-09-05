@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using AzureFunctionV2DI.Services;
 using Microsoft.Azure.WebJobs.Host.Config;
 
-namespace AzureFunctionV2DI
+namespace AzureFunctionV2DI.Extensions
 {
     public class InjectConfiguration : IExtensionConfigProvider
     {
