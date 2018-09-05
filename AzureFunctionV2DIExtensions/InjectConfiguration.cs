@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using AzureFunctionV2DI.Services;
+using AzureFunctionV2DIExtensions.Services;
 using Microsoft.Azure.WebJobs.Host.Config;
 
-namespace AzureFunctionV2DI.Extensions
+namespace AzureFunctionV2DIExtensions
 {
     public class InjectConfiguration : IExtensionConfigProvider
     {

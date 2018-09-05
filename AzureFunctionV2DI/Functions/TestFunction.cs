@@ -1,5 +1,5 @@
-using AzureFunctionV2DI.Extensions;
-using AzureFunctionV2DI.Services;
+using AzureFunctionV2DIExtensions;
+using AzureFunctionV2DIExtensions.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;

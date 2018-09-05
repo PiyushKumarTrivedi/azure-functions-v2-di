@@ -1,11 +1,10 @@
-using AzureFunctionV2DI;
-using AzureFunctionV2DI.Extensions;
+using AzureFunctionV2DIExtensions;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Hosting;
 
 [assembly: WebJobsStartup(typeof(AzureFunctionV2DiStartup))]
 
-namespace AzureFunctionV2DI
+namespace AzureFunctionV2DIExtensions
 {
     public class AzureFunctionV2DiStartup : IWebJobsStartup
     {
