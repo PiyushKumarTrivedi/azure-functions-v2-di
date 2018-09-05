@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
-using Microsoft.Extensions.Logging;
 
 namespace AzureFunctionV2DI.Functions
 {
@@ -14,7 +13,6 @@ namespace AzureFunctionV2DI.Functions
         public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)]
             HttpRequest req,
-            ILogger log,
             [Inject(typeof(ITestService))]ITestService testService
         )
         {
